@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CV project</title>
+	<link rel = "icon" href =  
+"https://www.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-51-128.png" 
+        type = "image/x-icon"> 
+	<link rel="stylesheet" href="styles.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper" >
+		<div class="resume">
+			<div class="left">
+				<div class="img_holder">
+					<img src="sokhorn.jpg" alt="picture">
+				</div>
+				<div class="contact_wrap pb">
+					<div class="title">
+						Contact
+					</div>
+					<div class="contact">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
+									<div class="text">0976673883</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+									<div class="text">sokhorn.nhor13 @gmail.com</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
+									<div class="text">BP 511, Phum Tropeang Chhuk (Borey Sorla) Sangtak, Street 371,
+										Phnom Penh</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="skills_wrap pb">
+					<div class="title">
+						Hard Skills
+					</div>
+					<div class="skills">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-php"></i></div>
+									<div class="text">PHP MVC</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-html5"></i></div>
+									<!-- <div class="icon"><i class="fab fa-css3-alt"></i></div> -->
+									<div class="text">HTML&CSS</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-js"></i></div>
+									<div class="text">Javascript</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-laravel"></i></div>
+									<div class="text">Laravel</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="hobbies_wrap pb">
+					<div class="title">
+						hobbies
+					</div>
+					<div class="hobbies">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-book"></i></div>
+									<div class="text">Reading</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-music"></i></div>
+									<div class="text">Music</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-search"></i></div>
+									<div class="text">Research</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-tree"></i></div>
+									<div class="text">Gardening</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right" id="contain"  >
+
+			</div>
+		</div>
+	</div>
+
+<script src="js/cv.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyACOt-QWUvZXuPNlP4Acy4lDq_7YLGn_fY",
+    authDomain: "project-cv-6f02a.firebaseapp.com",
+    databaseURL: "https://project-cv-6f02a.firebaseio.com",
+    projectId: "project-cv-6f02a",
+    storageBucket: "project-cv-6f02a.appspot.com",
+    messagingSenderId: "195911140715",
+    appId: "1:195911140715:web:05691742663f6ab7a6f82e",
+    measurementId: "G-QX42ZPZZ22"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  var db = firebase.firestore();
+</script>
+
+</body>
+
+</html>
