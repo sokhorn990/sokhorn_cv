@@ -9,11 +9,11 @@ db.collection('cv').get().then(data =>{
                     <div class="name">
                         ${element.data().name}
                     </div> 
-                    <div class="role">
+                    <div class="role" id="test">
                     ${element.data().position}
                     </div>
                 </div>
-                <div class="about">
+                <div class="about" id="test">
                 ${element.data().description}
                 </div>
             </div>

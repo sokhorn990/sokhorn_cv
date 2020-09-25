@@ -50,7 +50,8 @@ body{
 	letter-spacing: 5px;
 	padding-bottom: 10px;
 	color: #3525af;
-	position: relative;
+	/* position: relative; */
+	font-family:Arial, Helvetica, sans-serif;
 	text-align: right;
 	margin-bottom: 15px;
 }
@@ -231,4 +232,10 @@ body{
 	width: 2px;
 	height: 90%;
 	background: #9153c9;
+}
+P{
+	font-family:Arial, Helvetica, sans-serif;
+}
+#test{
+	font-family:Arial, Helvetica, sans-serif;
 }
